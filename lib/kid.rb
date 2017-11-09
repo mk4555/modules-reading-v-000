@@ -4,6 +4,9 @@ require_relative './class_methods_module.rb'
 class Kid
   # extend FancyDance::ClassMethods
   # include FancyDance::InstanceMethods
+
+  extend FancyDance
+  include FancyDance
   attr_accessor :name
   def initialize(name)
     @name = name
