@@ -6,7 +6,7 @@ class Kid
   # extend FancyDance::ClassMethods
   # include FancyDance::InstanceMethods
 
-  extend FancyDance
+  extend FancyDance::ClassMethods
   include FancyDance
   attr_accessor :name
   def initialize(name)
